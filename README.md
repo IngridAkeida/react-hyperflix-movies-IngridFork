@@ -1,6 +1,12 @@
 # HyperFlix React App
 
-Result project for 8 weeks of (React.js Module) I am thrilled to share that I have successfully completed a eight-weeks course on React!
+I'm delighted to share the result of my project on [Hyper Island's](https://www.instagram.com/hyperislandapplicants/HyperIsland) ReactJS course, in which I was able to work in partnership and improve my hard and soft skills, In this project I dedicated myself to experiencing everything that was proposed to me, and I was then able to further qualify in ReactJs using it at more advanced levels of complexity, and also have the opportunity to work in TailwindCSS for the first time. 
+
+All these values acquired during this module make me more confident to be the professional I seek to be as a FrontEnd Developer
+
+## You will find in this project
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Table of contents
 
@@ -22,8 +28,8 @@ Result project for 8 weeks of (React.js Module) I am thrilled to share that I ha
 
 ### Links
 
-- Solution URL: https://github.com/hassanidris/react-hyperflix-movies-hub
-- Live Site URL: https://hyperflix-site.netlify.app/
+- Solution URL: [https://github.com/IngridAkeida/react-hyperflix-movies-hub](https://github.com/IngridAkeida/react-hyperflix-movies-hub)
+- Live Site URL: [https://react-hyperflix-movies-hub.netlify.app/](https://react-hyperflix-movies-hub.netlify.app/)
 
 ## My process
 
@@ -40,13 +46,16 @@ Result project for 8 weeks of (React.js Module) I am thrilled to share that I ha
 
 ### What I learned
 
-- useContext
-- cutom hooks
-- Custom error handling using try catch and throw
-- Skeleton loading screen while fetching data from API
-- How to create a reusable component that accepts props dynamically
-- How to make the website responsive by utilizing tailwindcss utility classes
+- Hooks: useContext, useState, useEffect, useRef, useReduce.
+- Custom Hooks.
+- Build different paths with the same Fetch.
+- Effective use of API and providing matching of one or more paths.
+- Effective use of UI components.
+- How to create a reusable component that accepts props dynamically.
+- Maintainability and readability. 
+- Effective debugging.
+- How to make the website responsive by utilizing Tailwindcss utility classes.
 
 ## Author
 
-- Github - [hassanidris](https://github.com/hassanidris)
+- GitHub - [Ingrid Sanches](https://github.com/ingridAkeida)
