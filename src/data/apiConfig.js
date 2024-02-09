@@ -1,7 +1,4 @@
-// import { apiUrl, apiKey } from "./apiData";
-
-const apiUrl = import.meta.env.VITE_API_URL;
-const apiKey = import.meta.env.VITE_API_KEY;
+import { apiUrl, apiKey } from "./apiData";
 
 const basicFetch = async (keyPass) => {
   const response = await fetch(`${apiUrl}${keyPass}`);
