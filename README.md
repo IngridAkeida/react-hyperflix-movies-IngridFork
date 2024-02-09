@@ -33,11 +33,6 @@ All these values acquired during this module make me more confident to be the pr
 
 ## My process
 
-### Built with
-
-- React js
-- Tailwindcss
-
 ### Libraries used
 
 - react-router-dom for routing
