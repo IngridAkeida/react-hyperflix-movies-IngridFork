@@ -33,6 +33,8 @@ All these values acquired during this module make me more confident to be the pr
 
 ## My process
 
+The project was managed in the repository of a colleague in the group, but I reiterate that I actively participated in the process of building the application.
+
 ### Libraries used
 
 - react-router-dom for routing
