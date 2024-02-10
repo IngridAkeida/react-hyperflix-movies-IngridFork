@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
 import Skeleton from '../../ui-components/Skeleton';
 //import { FiInfo } from 'react-icons/fi';
-import defaultImageMovie from '../../../assets/image-nf-landscape.png'
+import defaultImageMovie from '../../../assets/img-default-landscape.png'
 
 const Movies = ({title, items}) => {
   const {slideLeft, slideRight} = useContext(MovieContext); 
