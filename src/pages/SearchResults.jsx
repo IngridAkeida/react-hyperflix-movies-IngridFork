@@ -60,7 +60,7 @@ const SearchResults = () => {
     <div className='pt-[120px]'>
       <h2 className='p-4'>Search Results</h2>
       <div className='px-8'>
-        <ul className={styleUl}>
+        <ul className='flex flex-wrap gap-4'>
           {resultsQuery.map((movie) => (
             <li className={styleLi} key={movie.id}>
               <Link to={`/movie/${movie.id}`}>

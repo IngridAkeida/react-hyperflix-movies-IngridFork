@@ -2,11 +2,11 @@
 import { useState, useContext } from 'react';
 import { MovieContext } from '../../../context/MovieContextProvider';
 import { Link, useNavigate } from "react-router-dom";
-import BtnDetails from "../../ui-components/BtnDetails";
-//import {FaHeart, FaRegHeart } from 'react-icons/fa';
+//import BtnDetails from "../../ui-components/BtnDetails";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
 import Skeleton from '../../ui-components/Skeleton';
-import { FiInfo } from 'react-icons/fi';
+//import { FiInfo } from 'react-icons/fi';
+import defaultImageMovie from '../../../assets/image-nf-landscape.png'
 
 const Movies = ({title, items}) => {
   const {slideLeft, slideRight} = useContext(MovieContext); 
@@ -14,11 +14,11 @@ const Movies = ({title, items}) => {
   const [sliderId] = useState(`slider-${Math.random().toString(36).substring(7)}`);
 
   //console.log(items)
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigateToMovie = (movieId) => {
-    navigate(`/movie/${movieId}`)
-  }
+  // const navigateToMovie = (movieId) => {
+  //   navigate(`/movie/${movieId}`)
+  // }
 
   const truncateTitle = (title, maxLength) => {
     if (title.length > maxLength) {
@@ -39,7 +39,8 @@ const Movies = ({title, items}) => {
             items.results.map((item, key) => (
               <div className="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] inline-block relative p-3 hover:bg-m_darkGrey cursor-pointer" key={key}>
                 <Link to={{ pathname: `/movie/${item.id}` }}>
-                <img className="w-full h-auto block" src={`https://image.tmdb.org/t/p/w500${item.backdrop_path || item.poster_path}`} alt={item.original_title} />
+
+                <img className="w-full h-auto block" src={item.backdrop_path ? `https://image.tmdb.org/t/p/w500/${item.backdrop_path}` : defaultImageMovie} alt={item.original_title} />
                 {/* <div className="absolute top-0 left-0 w-full h-full hover:bg-m_black/80 opacity-0 hover:opacity-100 text-m_white"> */}
                   <div className='flex justify-between items-center p-2'>
                   
