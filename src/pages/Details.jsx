@@ -50,11 +50,6 @@ export default function Details() {
     currency: 'USD',
   });
 
-  // const getLanguageName = (code) => {
-  //   const languageNames = new Intl.DisplayNames(['en'], { type: 'language' });
-  //   return languageNames.of(code);
-  // };
-
   const getL = (c) => new Intl.DisplayNames(['en'], {type: 'language'}).of(c);
 
   let genres = [];
@@ -83,7 +78,6 @@ for (let i in movieDetails?.credits?.crew) {
   } else {
     crewMap[name].push({ title, image });
   }
-  // console.log(image)
 }
 
 // Create an array of objects with name, titles, and image

@@ -28,9 +28,6 @@ const HeroBanner = ({itemBanner}) => {
       genres.push( itemBanner.genres[i].name );
   }
 
-  //console.log(itemBanner)
-
-  // flex items-end bg-gray-800 text-white h-[80vh] pt-20
   return itemBanner ? (
     <div className="w-full h-[90vh] text-white font-open_sans relative">
       <div

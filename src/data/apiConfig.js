@@ -40,11 +40,11 @@ export default {
           `/discover/movie?with_genres=27&api_key=${apiKey}`
         ),
       },
-      // {
-      //     slug: 'romance',
-      //     title: 'Romance',
-      //     items: await basicFetch(`/discover/movie?with_genres=10749&api_key=${apiKey}`)
-      // },
+      {
+        slug: 'romance',
+        title: 'Romance',
+        items: await basicFetch(`/discover/movie?with_genres=10749&api_key=${apiKey}`)
+      },
     ];
   },
   getMovieForId: async (movieId) => {

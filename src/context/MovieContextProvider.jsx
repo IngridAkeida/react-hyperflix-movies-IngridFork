@@ -5,16 +5,6 @@ export const MovieContext = createContext(null);
 
 const MovieContextProvider = (props) => {
 
-    // const slideLeft = (sliderId) => {
-    //     setSliderPosition((prevPosition) => prevPosition - 500);
-    //   };
-    
-    //   const slideRight = (sliderId) => {
-    //     setSliderPosition((prevPosition) => prevPosition + 500);
-    //   };
-
-    
-
     const slideLeft = (sliderId) => {
         let slider = document.getElementById(sliderId);
         slider.scrollLeft = Math.max(slider.scrollLeft - 500);

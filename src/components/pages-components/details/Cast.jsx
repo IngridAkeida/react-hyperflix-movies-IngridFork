@@ -1,9 +1,7 @@
 import defultImage from '../../../assets/default-user.png'
 
 const Cast = ({ name, character, image, job }) => {
-// console.log(defultImage);
   
-
   return (
     
     <div className=" w-[140px] sm:w-[130px] md:w-[170px] lg:w-[210px]  inline-block p-2 shadow-lg">
