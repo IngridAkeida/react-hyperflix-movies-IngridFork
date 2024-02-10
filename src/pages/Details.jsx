@@ -132,7 +132,7 @@ const crewInfoArray = Object.entries(crewMap).map(([name, roles]) => ({
                     <h4 className='text-sm sm:text-base font-bold'>Useful Links:</h4>
                     <div className=' flex gap-4 mt-3'>
                       <a className=' text-m_white hover:text-m_gold' href={`https://www.imdb.com/title/${movieDetails.imdb_id}/`} target="_blank" rel="noopener noreferrer"><FaImdb size={35} /></a>
-                      <a className=' text-m_white hover:text-m_gold' href={movieDetails.homepage} target="_blank" rel="noopener noreferrer"><FaGlobe size={35} /></a>
+                      <a className=' text-m_white hover:text-m_gold' href={movieDetails.homepage} target='_blank' rel='noopener noreferrer'><FaGlobe size={35} /></a>
                     </div>
                   </div>
                   

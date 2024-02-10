@@ -15,7 +15,7 @@ const Navbar = () => {
         <img className=" block sm:hidden w-12" src={logo_mob} alt="" />
         </Link>
       </div>
-      <div className=" flex justify-center items-center gap-2">
+      <div className='flex justify-center items-center gap-2'>
         <SearchField/>
         
       </div> 
