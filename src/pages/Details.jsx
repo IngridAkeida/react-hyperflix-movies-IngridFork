@@ -91,7 +91,8 @@ const crewInfoArray = Object.entries(crewMap).map(([name, roles]) => ({
 
     <div>
       <div>
-        <div className=" flex items-end bg-gray-800 text-white h-[90vh]" style={{backgroundImage: `url(https://image.tmdb.org/t/p/original${movieDetails.backdrop_path || movieDetails.poster_path})`, backgroundSize: 'cover'}}>
+        <div className='flex items-end bg-gray-800 text-white h-[90vh]' style={{backgroundImage: `url(https://image.tmdb.org/t/p/original${movieDetails.backdrop_path || movieDetails.poster_path})`, backgroundSize: 'cover'}}>
+
           <div className='w-full h-full flex flex-col md:flex-row justify-end md:items-end p-5 sm:p-10 gap-5 bg-m_black/80'>
             <div className='w-[30%] md:w-[300px] h-auto'><img className=' block w-full h-full object-cover' src={`https://image.tmdb.org/t/p/w200${movieDetails.poster_path}`} alt={movieDetails.title}/></div>
               <div className=' flex flex-col sm:flex-row items-end gap-4 w-full sm:w-[80%] justify-between'>
@@ -198,7 +199,6 @@ const crewInfoArray = Object.entries(crewMap).map(([name, roles]) => ({
                 />
               ))
             }
-
           </div>
         </div>
       </div>
