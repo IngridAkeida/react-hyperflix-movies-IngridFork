@@ -57,7 +57,7 @@ const HeroBanner = ({itemBanner}) => {
                 {itemBanner.title}
               </h1>
               <p className="font-open_sans text-m_white italic text-sm mb-3 mt-2">
-                <span>{releaseYear.getFullYear()}</span> .
+                <span>{releaseYear.getFullYear()}.</span>
                 <span> {genres.join(', ')}</span>
               </p>
               <p className="w-full lg:w-2/3">{itemBanner.overview}</p>
