@@ -1,5 +1,4 @@
-import React, { createContext } from 'react'
-import { apiUrl, apiKey } from "../data/apiData";
+import { createContext } from 'react'
 
 export const MovieContext = createContext(null);
 
