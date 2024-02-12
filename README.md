@@ -21,10 +21,12 @@ All these values acquired during this module make me more confident to be the pr
 ## Overview
 
 ### Screenshot
-
+![gif](./src/assets/hyperFlixGif.gif)
+<!--
 ![Screenshot 2024-02-08 at 23 35 16](./src/assets/screenshot.png)
 
 ![Screenshot 2024-02-08 at 23 35 16](./src/assets/screenshot2.png)
+-->
 
 ### Links
 
