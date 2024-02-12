@@ -11,7 +11,7 @@ All these values acquired during this module make me more confident to be the pr
 ## Table of contents
 
 - [Overview](#overview)
-  - [Gif](#project)
+  - [Project Overview](#project)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#libraries-used)
