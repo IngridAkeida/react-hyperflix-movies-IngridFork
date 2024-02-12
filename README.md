@@ -2,7 +2,7 @@
 
 I'm delighted to share the result of my project on [Hyper Island's](https://www.instagram.com/hyperislandapplicants/HyperIsland) ReactJS course, in which I was able to work in partnership and improve my hard and soft skills, In this project I dedicated myself to experiencing everything that was proposed to me, and I was then able to further qualify in ReactJs using it at more advanced levels of complexity, and also have the opportunity to work in TailwindCSS for the first time. 
 
-All these values acquired during this module make me more confident to be the professional I seek to be as a FrontEnd Developer
+All these values acquired during this module make me more confident to be the professional I seek to be as a FrontEnd Developer.
 
 ## You will find in this project
 
@@ -11,20 +11,22 @@ All these values acquired during this module make me more confident to be the pr
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Project Overview](#project)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Built with](#libraries-used)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
 
-### Screenshot
-
+### Project
+![gif](./src/assets/hyperFlixGif.gif)
+<!--
 ![Screenshot 2024-02-08 at 23 35 16](./src/assets/screenshot.png)
 
 ![Screenshot 2024-02-08 at 23 35 16](./src/assets/screenshot2.png)
+-->
 
 ### Links
 
