@@ -1,4 +1,4 @@
-import { apiUrl } from "./apiData";
+import { apiUrl } from './apiData';
 const apiKey = import.meta.env.VITE_MY_TOKEN;
 
 const basicFetch = async (keyPass) => {
@@ -23,32 +23,32 @@ export default {
   getHomeList: async () => {
     return [
       {
-        slug: "trending",
-        title: "Trending",
+        slug: 'trending',
+        title: 'Trending',
         items: await basicFetch(`/trending/all/week?&api_key=${apiKey}`),
       },
       {
-        slug: "toprated",
-        title: "Toprated",
+        slug: 'toprated',
+        title: 'Toprated',
         items: await basicFetch(`/movie/top_rated?&api_key=${apiKey}`),
       },
       {
-        slug: "action",
-        title: "Action",
+        slug: 'action',
+        title: 'Action',
         items: await basicFetch(
           `/discover/movie?with_genres=28&api_key=${apiKey}`
         ),
       },
       {
-        slug: "comedy",
-        title: "Comedy",
+        slug: 'comedy',
+        title: 'Comedy',
         items: await basicFetch(
           `/discover/movie?with_genres=35&api_key=${apiKey}`
         ),
       },
       {
-        slug: "horror",
-        title: "Horror",
+        slug: 'horror',
+        title: 'Horror',
         items: await basicFetch(
           `/discover/movie?with_genres=27&api_key=${apiKey}`
         ),
