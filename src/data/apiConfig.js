@@ -1,10 +1,22 @@
 import { apiUrl } from "./apiData";
-const apiKey = import.meta.env.VITE_MY_KEY;
+const apiKey = import.meta.env.VITE_MY_TOKEN;
 
 const basicFetch = async (keyPass) => {
-  const response = await fetch(`${apiUrl}${keyPass}`);
-  const json = await response.json();
-  return json;
+  try {
+    const response = await fetch(`${apiUrl}${keyPass}`, {
+      headers: {
+        Authorization: `Bearer ${apiKey}`
+      }
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const json = await response.json();
+    return json;
+  } catch (error) {
+    console.error('Fetch error: ', error.message);
+    return null;
+  }
 };
 
 export default {
