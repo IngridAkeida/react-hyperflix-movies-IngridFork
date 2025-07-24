@@ -4,7 +4,6 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const Reviews = ({ author, content, image, date }) => {
   const [showFullContent, setShowFullContent] = useState(false);
-// console.log(defultImage);
   
 const toggleContent = () => {
   setShowFullContent(!showFullContent);
@@ -20,10 +19,10 @@ const toggleContent = () => {
             <h4 className=" text-m_white whitespace-normal font-open_sans text-xs md:text-sm font-bold ">{author}</h4>
             {/* <p className=" text-m_white whitespace-normal font-open_sans text-xs italic mb-3">{date}</p> */}
             <p className=" text-m_white whitespace-normal font-open_sans text-xs italic mb-3">{new Date(date).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-})}</p>
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })}</p>
             <p
           className={`text-m_white whitespace-normal font-open_sans text-xs md:text-sm ${
             showFullContent ? 'max-h-full' : 'max-h-16'

@@ -35,7 +35,6 @@ export default function Details() {
 
       let movie = await apiConfig.getMovieForId(id);
       setMovieDetails(movie)
-      console.log(movie)
 
     }
     loadDetails();
@@ -84,7 +83,7 @@ for (let i in movieDetails?.credits?.crew) {
 const crewInfoArray = Object.entries(crewMap).map(([name, roles]) => ({
   name,
   titles: roles.map(role => role.title).join(', '),
-  image: roles[0].image, // Assuming the crew member has the same image for all roles
+  image: roles[0].image, 
 }));
 
   return (

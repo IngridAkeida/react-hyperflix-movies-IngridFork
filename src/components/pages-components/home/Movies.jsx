@@ -1,7 +1,7 @@
 
 import { useState, useContext } from 'react';
 import { MovieContext } from '../../../context/MovieContextProvider';
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 //import BtnDetails from "../../ui-components/BtnDetails";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
 import Skeleton from '../../ui-components/Skeleton';
@@ -13,7 +13,6 @@ const Movies = ({title, items}) => {
   
   const [sliderId] = useState(`slider-${Math.random().toString(36).substring(7)}`);
 
-  //console.log(items)
   // const navigate = useNavigate();
 
   // const navigateToMovie = (movieId) => {
