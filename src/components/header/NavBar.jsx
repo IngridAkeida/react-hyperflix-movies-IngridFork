@@ -13,7 +13,7 @@ const Navbar = () => {
       <Link to='/'>
         <img className=" hidden sm:block w-44" src={logo_desk} alt="" />
         <img className=" block sm:hidden w-12" src={logo_mob} alt="" />
-        </Link>
+      </Link>
       </div>
       <div className='flex justify-center items-center gap-2'>
         <SearchField/>
