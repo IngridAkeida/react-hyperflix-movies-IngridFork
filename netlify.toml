@@ -1,6 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-
-[secrets]
-  omit_keys = ["VITE_MY_KEY", "VITE_MY_TOKEN"]
