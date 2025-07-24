@@ -68,7 +68,7 @@ export default {
   },
   getSearchMovie: async (searchText) => {
     const data = await basicFetch(
-      `search/movie?api_key=${apiKey}&language=en-US&query=${searchText}&page=1&include_adult=false`
+      `/search/movie?api_key=${apiKey}&language=en-US&query=${searchText}&page=1&include_adult=false`
     );
 
     return data;
